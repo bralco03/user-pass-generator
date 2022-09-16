@@ -2,6 +2,6 @@ import * as React from 'react';
 
 interface Props {}
 
-export const footer: React.FC<Props> = props => {
-    return <footer>Footer</footer>
+export const Footer: React.FC<Props> = props => {
+    return <footer> <p>Made by Bralco03 </p> </footer>
 };

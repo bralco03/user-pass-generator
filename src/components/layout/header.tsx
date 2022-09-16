@@ -1,5 +1,7 @@
 import * as React from 'react';
-
-export const header: React.FC<{}> = () => {
-    return <nav>yellou</nav>
+import './layout.css';
+export const Header: React.FC = () => {
+    return <nav>
+        <h2>User/Pass Generator</h2>
+    </nav>
 };

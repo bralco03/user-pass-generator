@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(73, 73, 73);
+    box-shadow: 1px solid black;
+}
+h2{
+    font-weight: 300;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgb(73, 73, 73);
+    position: absolute;
+    bottom: 0;
+}
+
+footer > p {
+    margin-left: 0.7em;
+}
